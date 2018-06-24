@@ -3,6 +3,14 @@
 
 @import "{{ site.theme }}";
 
+// Headers
+$header-bg-color: #337ab7 !default;
+$header-bg-color-secondary: #3c0bb2 !default;
+
+// Text
+$section-headings-color: #337ab7 !default;
+$body-link-color: #3c0bb2 !default;
+
 .page-header
 {
     padding: 11rem 6rem;
