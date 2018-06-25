@@ -9,11 +9,11 @@ $header-bg-color-secondary: #3c0bb2 !default;
 $section-headings-color: #337ab7 !default;
 $body-link-color: #3c0bb2 !default;
 
-@import "{{ site.theme }}";
+@import 'jekyll-theme-cayman';
 
 .page-header
 {
-    padding: 11rem 6rem;
+    padding: 6rem 6rem !important;
     background-image: url('/content/images/header_bg.jpg');
     background-size: cover;
     background-position: center;
