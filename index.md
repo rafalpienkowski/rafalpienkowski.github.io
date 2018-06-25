@@ -6,7 +6,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### Article link
 
-[Article](/2018/05/article)
+[Article](/posts/2018-05-11-article1)
 
 ### Markdown
 
