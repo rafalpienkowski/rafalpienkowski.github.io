@@ -2,3 +2,6 @@ theme: jekyll-theme-cayman
 title: Rafał Pieńkowski
 description: Feel free to bookmark tihs to keep an eye on my projects and blog posts
 google_analytics: UA-118963388-2
+
+plugins:
+  - jekyll-gist
