@@ -49,13 +49,153 @@ I've made some changes in code generated from scaffolding. I've added IValueRepo
 
 Unit test checks if during the call to the ValuesController to the Get method we're calling GetAll() method from IValueRepository, We're performing assertion against returned by the controller value. The test is listed below:
 
-{% gist https://gist.github.com/rafalpienkowski/8051375411be602e8cd321fdcb611033 %}
+```csharp
+using System.Threading.Tasks;
+using SimpleApi.Persistence;
+using Xunit;
+using Moq;
+using SimpleApi.Controllers;
+using System.Collections.Generic;
+using SimpleApi.Models;
+using System.Linq;
+using FluentAssertions;
+
+namespace SimpleApi.Tests
+{
+    public class ValuesControllerTests
+    {
+        [Fact]
+        public void TestValuesGetAll()
+        {
+            // arrange
+            var getAllList = new List<ValueModel>{
+                    new ValueModel{
+                        Id = 0,
+                        Value = "First"
+                    },
+                    new ValueModel{
+                        Id = 1,
+                        Value = "Second"
+                    }
+                };
+            var valueRepositoryMock = new Mock<IValueRepository>();
+            valueRepositoryMock.Setup(m => m.GetAll()).Returns(getAllList.AsQueryable());         
+            var sut = new ValuesController(valueRepositoryMock.Object);
+
+            // act
+            var result = sut.Get();
+
+            // assert
+            result.Should().BeEquivalentTo(getAllList);
+            valueRepositoryMock.Verify(m => m.GetAll(), Times.Once);
+        }
+    }
+}
+```
 
 Integration tests utilized Microsoft.AspNetCore.TestHost.TestServer class. More about integration test in ASP.Net Core you can read in [this article](https://docs.microsoft.com/en-us/aspnet/core/testing/integration-testing). 
 
 I've implemented two tests. In first one we are posting a value, getting all available values and checking if returned value looks like expected. In the second differs only in that we are posting two objects to the controller. We're using the HttpClient class to communicate with our test server. Mentioned tests are listed below:
 
-{% gist https://gist.github.com/rafalpienkowski/371927154476a7c513023a589b6eab70 %}
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Net.Http;
+using System.Text;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.TestHost;
+using Newtonsoft.Json;
+using SimpleApi.Models;
+using Xunit;
+
+namespace SimpleApi.IntegrationTests
+{
+    public class SimpleIntegrationTests
+    {
+        private readonly TestServer _testServer;
+        private readonly HttpClient _testClient;
+
+        public SimpleIntegrationTests()
+        {
+            _testServer = new TestServer(new WebHostBuilder().UseStartup<Startup>());
+            _testClient = _testServer.CreateClient();
+        }
+
+        [Fact]
+        public async Task TestValuesPostAndGetAll()
+        {
+            var valueModel = new ValueModel 
+            {
+                Value = "Test value"
+            };
+
+            await PostValueModel(new ValueModel {
+                Value = "Test value"
+            });
+
+            var valueModels = await GetAllValueModels();
+
+            Assert.Equal(1, valueModels.Count);
+            AssertValueModelInList(0,valueModels,valueModel);
+        }
+
+        [Fact]
+        public async Task TestValuesPostTwiceAndGetAll()
+        {
+            var valueModel = new ValueModel
+            {
+                Value = "Test value"
+            };
+            var valueModel2 = new ValueModel
+            {
+                Value = "Test value 2"
+            };
+
+            await PostValueModel(valueModel);
+            await PostValueModel(valueModel2);
+            
+            var valueModels = await GetAllValueModels();
+
+            Assert.Equal(2, valueModels.Count);
+            AssertValueModelInList(0,valueModels,valueModel);
+            AssertValueModelInList(1,valueModels,valueModel2);
+        }
+
+        private async Task PostValueModel(ValueModel valueModel)
+        {
+            var stringContent = SerializeToString(valueModel);
+
+            var postMessage = await _testClient.PostAsync("/api/values", stringContent);
+            postMessage.EnsureSuccessStatusCode();
+        }     
+
+        private StringContent SerializeToString(ValueModel valueModel)
+        {
+            return new StringContent(
+                JsonConvert.SerializeObject(valueModel),
+                UnicodeEncoding.UTF8,
+                "application/json"
+            );
+        }
+
+        private async Task<IList<ValueModel>> GetAllValueModels()
+        {
+            var getMessage = await _testClient.GetAsync("/api/values");
+            getMessage.EnsureSuccessStatusCode();
+
+            var raw = await getMessage.Content.ReadAsStringAsync();
+            return JsonConvert.DeserializeObject<List<ValueModel>>(raw);
+        }
+
+        private void AssertValueModelInList(int position, IList<ValueModel> actual, ValueModel expected)
+        {
+            Assert.Equal(expected.Value, actual[position].Value);
+            Assert.Equal(position, actual[position].Id);
+        }
+    }
+}
+```
 
 ### DockerHub
 
