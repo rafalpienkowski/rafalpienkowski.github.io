@@ -7,7 +7,7 @@ layout: default
 Welcome! You can find some information about myself and some post which I've posted on [dev.to](https://dev.to/rafalpienkowski).
 
 ### My articles:
-
+- [GitHub & Docker Hub a reasonable marriage](/posts/2018/08/github-docker-hub-marriage) (08/2018)
 - [Poor man's dotnet solution setup](/posts/2018/04/poor-mans-solution-setup) (04/2018)
 - [A .Net man in Linux world. ](/posts/2018/03/net-man-in-linux-world) (03/2018)
 - [CI/CD with Wercker](/posts/2018/03/CI-CD-with-Wercker) (03/2018)
@@ -22,6 +22,10 @@ Welcome! You can find some information about myself and some post which I've pos
 - [Can you share your favorite quote or rule related to IT?](https://dev.to/rafalpienkowski/can-you-share-your-favorite-quote-or-rule-related-to-it-4e7l) (06/2018)
 - [Which framework use for an e2e tests of an SPA? ](https://dev.to/rafalpienkowski/which-framework-use-for-an-e2e-tests-of-an-spa--4bni) (03/2018
 - [Do developers still need UML?](https://dev.to/rafalpienkowski/do-developers-still-need-uml-ajh) (11/2017)
+
+### Projects
+
+- [Build Trigger](https://github.com/rafalpienkowski/build-trigger). This project has been made to allow multiple users to trigger a build defined in Visual Studio Team Services (VSTS).
 
 ### Github
 
