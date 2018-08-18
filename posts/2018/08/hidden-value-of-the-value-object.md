@@ -215,6 +215,7 @@ Please don't go from one extreme to the other.
 # Links:
 
 - [Color.cs class](https://github.com/rafalpienkowski/resources/blob/master/hidden-value-of-the-value-object/Color.cs)
+- [Color.cs readonly struct](https://github.com/rafalpienkowski/resources/blob/master/hidden-value-of-the-value-object/ColorStruct.cs) (better for most cases but requires C# 7.2 or later)
 - [Implementing value objects](https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/microservice-ddd-cqrs-patterns/implement-value-objects) from .NET Guide
 - [Evans Classification](https://martinfowler.com/bliki/EvansClassification.html) from MartinFowler.com
 - [Value Object](https://martinfowler.com/bliki/ValueObject.html) from MartinFowler.com which contains examples written in Java
