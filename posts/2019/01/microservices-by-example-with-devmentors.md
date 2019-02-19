@@ -40,3 +40,6 @@ The project isn't dead. Dariusz and Piotr are enhancing the project. They are ad
 It's obvious that the Microservice Architecture isn't an easy topic. Dariusz and Piotr assumed that average contributor has basic knowledge about Docker and RabbitMq. They don't dive deep into details of those technologies. In my opinion, it's good to get familiar with these tools (especially Docker). With this knowledge, we can focus on the architecture rather than the tool itself.  Please don't worry, without the experience in Docker and Rabbit you will be able to understand the main concepts, but it could be a little harder. 
 
 The last thing I'd like to mention is that I'm glad there are developers like Dariusz and Piotr which want to share their knowledge with the community. Thanks them for that. 
+
+
+## [Back](/)

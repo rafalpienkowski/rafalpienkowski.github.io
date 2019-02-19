@@ -219,3 +219,5 @@ Please don't go from one extreme to the other.
 - [Implementing value objects](https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/microservice-ddd-cqrs-patterns/implement-value-objects) from .NET Guide
 - [Evans Classification](https://martinfowler.com/bliki/EvansClassification.html) from MartinFowler.com
 - [Value Object](https://martinfowler.com/bliki/ValueObject.html) from MartinFowler.com which contains examples written in Java
+
+## [Back](/)
