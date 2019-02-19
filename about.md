@@ -17,6 +17,9 @@ I always like to help and share my knowledge with other team members. Therefore 
 ___
 
 ### 05.2018-nowadays, [Cognifide Limited](https://www.cognifide.com/), Senior Software Engineer
+I was mainly focused on R&D projects related to the extension of the Sitecore platform and internal projects according to the company needs.
+I've proposed, made and implement architecture enhancement on Sitecore's architecture hosted in Platform As A Service (PaaS) model on the Azure platform. The changes have been reduced the hosting cost of the solution by 30-40%.
+I enhanced the CI/CD process for one of the projects. I introduced Azure DevOps into the project, multi-environment deployments, and custom Azure Pipeline step dedicated for the Sitecore platform.
 
 ### 05.2018-nowadays, [Bydgoszcz .Net User Group](https://www.facebook.com/Bydgoszcz-Net-User-Group-1008732075973110/), Group Lider
 Bydgoszcz .Net User Group was created to connect all geeks focused on .Net technology stack around Bydgoszcz city. The primary goals of the group are knowledge sharing and networking with other people which daily routine is to work with .Net technologies.

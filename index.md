@@ -8,6 +8,7 @@ Welcome! You can find some information about myself and some post which I've pos
 
 ### My articles:
 
+- [Microservices by example with DevMentors](/posts/2019/01/microservices-by-example-with-devmentors) (01/2019)
 - [The hidden value of the Value Object](/posts/2018/08/hidden-value-of-the-value-object) (08/2018)
 - [GitHub & Docker Hub a reasonable marriage](/posts/2018/08/github-docker-hub-marriage) (08/2018)
 - [Poor man's dotnet solution setup](/posts/2018/04/poor-mans-solution-setup) (04/2018)
