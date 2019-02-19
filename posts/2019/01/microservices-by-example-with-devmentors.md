@@ -41,5 +41,6 @@ It's obvious that the Microservice Architecture isn't an easy topic. Dariusz and
 
 The last thing I'd like to mention is that I'm glad there are developers like Dariusz and Piotr which want to share their knowledge with the community. Thanks them for that. 
 
+___    
 
 ## [Back](/)

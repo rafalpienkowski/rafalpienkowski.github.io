@@ -220,4 +220,7 @@ Please don't go from one extreme to the other.
 - [Evans Classification](https://martinfowler.com/bliki/EvansClassification.html) from MartinFowler.com
 - [Value Object](https://martinfowler.com/bliki/ValueObject.html) from MartinFowler.com which contains examples written in Java
 
+
+___    
+
 ## [Back](/)
