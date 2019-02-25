@@ -8,6 +8,8 @@ Welcome! You can find some information about myself and some post which I've pos
 
 ### My articles:
 
+- [Turn VM off and give my money back](/posts/2019/02/turn-vm-off) (02/2019)
+- [Azure cost optimalization intro](/posts/2019/02/azure-cost-opt-intro) (02/2019)
 - [Microservices by example with DevMentors](/posts/2019/01/microservices-by-example-with-devmentors) (01/2019)
 - [The hidden value of the Value Object](/posts/2018/08/hidden-value-of-the-value-object) (08/2018)
 - [GitHub & Docker Hub a reasonable marriage](/posts/2018/08/github-docker-hub-marriage) (08/2018)
