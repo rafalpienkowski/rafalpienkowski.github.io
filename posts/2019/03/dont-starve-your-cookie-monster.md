@@ -2,6 +2,8 @@
 layout: default
 ---
 
+![Cookie Monster](https://media.giphy.com/media/9D59CDcFYY9zakkTZe/giphy.gif)
+
 First of all I want to say a few words about the cover image. I bet almost all of you know a [Muppet](https://en.wikipedia.org/wiki/The_Muppets) called [Cookie Monster](https://en.wikipedia.org/wiki/Cookie_Monster). As well as Cookie Monster doesn't like when there are no cookies, our threads don't like to be blocked.
 
 Work with threads isn't simple. That is quite obvious for everyone who tried it. One of a vast number of issues is an exclusive lock of a given resource which provides us thread synchronization.
