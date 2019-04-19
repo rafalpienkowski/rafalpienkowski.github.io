@@ -35,6 +35,10 @@ Welcome! You can find some information about myself and some post which I've pos
 
 - [Build Trigger](https://github.com/rafalpienkowski/build-trigger). This project has been made to allow multiple users to trigger a build defined in Visual Studio Team Services (VSTS).
 
+### Presentations
+
+- [In this repository](https://github.com/rafalpienkowski/presentations) you can find my presentations.
+
 ### Github
 
 My personal [Github](https://github.com/rafalpienkowski) repositories.
