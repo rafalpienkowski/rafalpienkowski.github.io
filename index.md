@@ -34,6 +34,7 @@ Welcome! You can find some information about myself and some post which I've pos
 ### Projects
 
 - [Build Trigger](https://github.com/rafalpienkowski/build-trigger). This project has been made to allow multiple users to trigger a build defined in Visual Studio Team Services (VSTS).
+- [Warsaw 19115 Nofification System Explorer](https://github.com/rafalpienkowski/warsaw-19115-notifications). A simple project with consumes data from 19115 Warsaw's Notification service and presents it to the client. Nothing fancy.
 
 ### Presentations
 
