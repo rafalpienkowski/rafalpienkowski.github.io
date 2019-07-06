@@ -19,14 +19,22 @@ You can find all the microservices which are taking part in the solution in publ
 Dariusz and Piotr are two pillars of the project, but everyone is being invited to the project's contribution. There are several forms to get involved in the project like [forum](https://forum.devmentors.io/), [Gitter](https://gitter.im/devmentors-io) or [Twitter](https://twitter.com/dev_mentors). Feel free to take the most suitable communication channel for you. You can ask a question to guys or propose a change. 
 
 ### 4) An Youtube channel
-Honestly, I think that this the most significant feature of the DShop project. Why do I feel so? IMHO it brings the educational value. In each episode, Dariusz and Piotr are explaining the core concepts of a Microservice Architecture by an example. They are making a quick introduction to the problem and solving it before our eyes. Yes, guys are coding and recording at the same time. At the moment of writing this post, seven episodes are recorded. They are listed below:
+Honestly, I think that this the most significant feature of the DShop project. Why do I feel so? IMHO it brings the educational value. In each episode, Dariusz and Piotr are explaining the core concepts of a Microservice Architecture by an example. They are making a quick introduction to the problem and solving it before our eyes. Yes, guys are coding and recording at the same time. Avaliable episodes are listed below:
 - Episode 1 - Intro, HTTP, requests flow, Infrastructure with Docker
 - Episode 2 - CQRS - Write side, Discounts service, MongoDB repository
 - Episode 3 - Subscribing RabbitMQ messages, API gateway
 - Episode 4 - Asynchronous microservices integration via events
 - Episode 5 - CQRS - Read side, Internal HTTP communication
 - Episode 6 - Sevice discovery & load balancing with Consul and Fabio
-- Episode 7- Handling asynchronous requests, SignalR, Polly
+- Episode 7 - Handling asynchronous requests, SignalR, Polly
+- Episode 8 - Distributed transactions, 2PC, Event Choreography, Saga
+- Episode 9 - Vault secrets, Seq logging, Jaeger distributed tracing
+- Episode 10 - Metrics with AppMetrics, InfluxDB, Prometheus, Grafana
+- Episode 11 - Travis CI pipelines, custom MyGet feeds
+- Episode 12 - Docker basics, Docker Hub, docker-compose
+- Episode 13 - Integration tests with xUnit, Web API, Mongo, RabbitMQ
+- Episode 14 - Consumer-driven contract testing with Pact
+- Episode 15 - Orchestration with Portainer, Kubernetes and Ranche
 
 [Here](https://www.youtube.com/watch?v=s4fd3PRlOcw) is the link to the first episode.
 

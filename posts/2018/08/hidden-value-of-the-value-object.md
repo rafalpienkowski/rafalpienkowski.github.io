@@ -18,7 +18,7 @@ _Note: All examples are written in C#, and they are using newest C# syntax. I ho
 
 Let's start with the simple example of a Car entity like in the code snippet below.
 
-```
+```csharp
 public class Car
 {
     /* Properties */
@@ -43,7 +43,7 @@ We will focus on properties related to car's color. I mean Color and Metallic pr
 
 In our example, `Color` and `Metallic` are the best candidates for the Value object.  Both are describing the look of the vehicle.  So extract the new class:
 
-```
+```csharp
 public class Color
 {
     public string Hue { get; set; }
@@ -60,7 +60,7 @@ _Notice:_ The object itself can't call property setters either by the public, no
 
 Let's enhance our example according to previous thoughts.
 
-```
+```csharp
 public class Color
 {
     public Color(string hue, bool metallic)
@@ -106,7 +106,7 @@ According to our example, two colors are the same if they have the same hue and 
 
 So let enhance our class and implement the Value Equality:
 
-```
+```csharp
 public class Color
 {
     public Color(string hue, bool metallic)
@@ -167,7 +167,7 @@ All methods exposed by a value object should be a function without side effect, 
 
 Let's take the car's repainting example. We can achieve repainting by adding such a function to our class. 
 
-```
+```csharp
 public class Color
 {
     public Color(string hue, bool metallic)

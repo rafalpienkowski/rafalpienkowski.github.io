@@ -8,6 +8,8 @@ Welcome! You can find some information about myself and some post which I've pos
 
 ### My articles:
 
+- [Don't starve your Cookie Monster](/posts/2019/03/dont-starve-your-cookie-monster) (03/2019)
+- [Doubles can be dangerous](/posts/2019/03/doubles-can-be-dangerous) (03/2019)
 - [Turn VM off and give my money back](/posts/2019/02/turn-vm-off) (02/2019)
 - [Azure cost optimalization intro](/posts/2019/02/azure-cost-opt-intro) (02/2019)
 - [Microservices by example with DevMentors](/posts/2019/01/microservices-by-example-with-devmentors) (01/2019)
@@ -32,6 +34,11 @@ Welcome! You can find some information about myself and some post which I've pos
 ### Projects
 
 - [Build Trigger](https://github.com/rafalpienkowski/build-trigger). This project has been made to allow multiple users to trigger a build defined in Visual Studio Team Services (VSTS).
+- [Warsaw 19115 Nofification System Explorer](https://github.com/rafalpienkowski/warsaw-19115-notifications). A simple project with consumes data from 19115 Warsaw's Notification service and presents it to the client. Nothing fancy.
+
+### Presentations
+
+- [In this repository](https://github.com/rafalpienkowski/presentations) you can find my presentations.
 
 ### Github
 
