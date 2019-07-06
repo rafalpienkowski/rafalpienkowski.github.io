@@ -16,14 +16,16 @@ I always like to help and share my knowledge with other team members. Therefore 
 ## Professional career
 ___
 
-### 05.2018-nowadays, [Cognifide Limited](https://www.cognifide.com/), Senior Software Engineer
-I was mainly focused on R&D projects related to the extension of the Sitecore platform and internal projects according to the company needs.
-I've proposed, made and implement architecture enhancement on Sitecore's architecture hosted in Platform As A Service (PaaS) model on the Azure platform. The changes have been reduced the hosting cost of the solution by 30-40%.
-I enhanced the CI/CD process for one of the projects. I introduced Azure DevOps into the project, multi-environment deployments, and custom Azure Pipeline step dedicated for the Sitecore platform.
+### 03.2019-nowadays, [Huuuge Games](http://www.huuugegames.com/), C# Developer
 
 ### 05.2018-nowadays, [Bydgoszcz .Net User Group](https://www.facebook.com/Bydgoszcz-Net-User-Group-1008732075973110/), Group Lider
 Bydgoszcz .Net User Group was created to connect all geeks focused on .Net technology stack around Bydgoszcz city. The primary goals of the group are knowledge sharing and networking with other people which daily routine is to work with .Net technologies.
 As one of the group leaders, I'm responsible for finding interesting speakers, generous sponsors, driving meetings and promoting group in social media.
+
+### 05.2018-03.2019, [Cognifide Limited](https://www.cognifide.com/), Senior Software Engineer
+I was mainly focused on R&D projects related to the extension of the Sitecore platform and internal projects according to the company needs.
+I've proposed, made and implement architecture enhancement on Sitecore's architecture hosted in Platform As A Service (PaaS) model on the Azure platform. The changes have been reduced the hosting cost of the solution by 30-40%.
+I enhanced the CI/CD process for one of the projects. I introduced Azure DevOps into the project, multi-environment deployments, and custom Azure Pipeline step dedicated for the Sitecore platform.
 
 ### 11.2016-05.2018, [Cybercom Group](https://www.cybercom.com/), Senior Software Engineer 
 As a software engineer, I'm taking part in several projects with a different degree of advanced. I'm responsible for the development and support different products depending on client needs. I'm specializing in web-based solutions. I was working on VOD platform. The project uses ASP MVC, Web API, EF and a lot of Azure cloud solutions such as App Services, Azure Queues, Azure Table Storage, Azure Media Services, API Management Services, SQL Database and Application Insights. I enhanced existing CI/CD processes. I created Infrastructure as a Code for VOD platform project based on ARM templates.
