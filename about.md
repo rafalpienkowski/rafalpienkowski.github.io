@@ -18,6 +18,14 @@ ___
 
 ### 03.2019-nowadays, [Huuuge Games](http://www.huuugegames.com/), C# Developer
 
+06.2019-nowadays ***HDCI Project***
+
+The Huuuge Dynamic Configuration Infrastructure project is aimed to show a configuration for a player which depends on the current player's business segments.
+
+03-06.2019 ***HADS Project***
+
+The Huuuge ADS project aimed to show ads in games. As the Backend developer, I was responsible for maintaining and enhancing the API for managing ads served to the client. I was briefly involved in the project, but I proposed some enhancement in the CI/CD process, made some changes in the Backend's architecture, which enables faster feature development.
+
 ### 05.2018-nowadays, [Bydgoszcz .Net User Group](https://www.facebook.com/Bydgoszcz-Net-User-Group-1008732075973110/), Group Lider
 Bydgoszcz .Net User Group was created to connect all geeks focused on .Net technology stack around Bydgoszcz city. The primary goals of the group are knowledge sharing and networking with other people which daily routine is to work with .Net technologies.
 As one of the group leaders, I'm responsible for finding interesting speakers, generous sponsors, driving meetings and promoting group in social media.
