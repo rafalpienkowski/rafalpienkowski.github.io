@@ -28,11 +28,11 @@ The Huuuge Dynamic Configuration Infrastructure project is aimed to show a confi
 
 The Huuuge ADS project aimed to show ads in games. As the Backend developer, I was responsible for maintaining and enhancing the API for managing ads served to the client. I was briefly involved in the project, but I proposed some enhancement in the CI/CD process, made some changes in the Backend's architecture, which enables faster feature development.
 
-### 05.2018-nowadays, [Bydgoszcz .Net User Group](https://www.facebook.com/Bydgoszcz-Net-User-Group-1008732075973110/), Group Lider
+### ![Bydgoszcz .Net User Group](/content/images/bug_net.png) 05.2018-nowadays, [Bydgoszcz .Net User Group](https://www.facebook.com/Bydgoszcz-Net-User-Group-1008732075973110/), Group Lider
 Bydgoszcz .Net User Group was created to connect all geeks focused on .Net technology stack around Bydgoszcz city. The primary goals of the group are knowledge sharing and networking with other people which daily routine is to work with .Net technologies.
 As one of the group leaders, I'm responsible for finding interesting speakers, generous sponsors, driving meetings and promoting group in social media.
 
-### 05.2018-03.2019, [Cognifide Limited](https://www.cognifide.com/), Senior Software Engineer
+### ![Cognifide](/content/images/cognifide.png) 05.2018-03.2019, [Cognifide Limited](https://www.cognifide.com/), Senior Software Engineer
 I was mainly focused on R&D projects related to the extension of the Sitecore platform and internal projects according to the company needs.
 I've proposed, made and implement architecture enhancement on Sitecore's architecture hosted in Platform As A Service (PaaS) model on the Azure platform. The changes have been reduced the hosting cost of the solution by 30-40%.
 I enhanced the CI/CD process for one of the projects. I introduced Azure DevOps into the project, multi-environment deployments, and custom Azure Pipeline step dedicated for the Sitecore platform.
