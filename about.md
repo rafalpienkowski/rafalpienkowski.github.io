@@ -16,11 +16,13 @@ I always like to help and share my knowledge with other team members. Therefore 
 ## Professional career
 ___
 
-### 03.2019-nowadays, [Huuuge Games](http://www.huuugegames.com/), C# Developer
+### 06.2019-nowadays, [Huuuge Games](http://www.huuugegames.com/) ![Huuuge Games logo](https://media.licdn.com/dms/image/C4E0BAQGbnaoFHA7hPQ/company-logo_200_200/0?e=2159024400&v=beta&t=dZttt6eijGWO0cJw6NgifS_KgcO2CsZn1WIVKGSf83w), Lead C# Developer
 
 06.2019-nowadays ***HDCI Project***
 
 The Huuuge Dynamic Configuration Infrastructure project is aimed to show a configuration for a player which depends on the current player's business segments.
+
+### 03.2019-06.2019, [Huuuge Games](http://www.huuugegames.com/), C# Developer
 
 03-06.2019 ***HADS Project***
 
