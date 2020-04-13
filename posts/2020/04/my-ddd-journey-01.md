@@ -6,7 +6,7 @@ layout: default
 
 For some time, I have an interest in the Domain-Driven Desing. In my case, it didn't come from DDD's popularity nor something called CV-Driven development. Trust me or not, I want to write quality software, and I believe that DDD is the right (but the only one) technique to achieve that.
 
-From some time, I want to write something about this technique. I warn you that I don't consider myself as a DDD expert. There are a lot of smarter than me in this business. After all, I decided to describe how is my adventure with DDD looks like. I want to show my subjective point of view. I want to share things which caused me problems, my failures and some wins. I could be pleasant if I could share your experience with me. It would be rapt if I inspire you or if you could take a lesson from my failures. In the end, Domain-Driven Design is a highly effective technique. In my opinion it worth to make an effort and get familiar with it.
+From some time, I want to write something about this technique. I warn you that I don't consider myself as a DDD expert. There are a lot of smarter than me in this business. After all, I decided to describe how is my adventure with DDD looks like (as you can image the cover photo presents how the journey looked like). I want to show my subjective point of view. I want to share things which caused me problems, my failures and some wins. I could be pleasant if I could share your experience with me. It would be rapt if I inspire you or if you could take a lesson from my failures. In the end, Domain-Driven Design is a highly effective technique. In my opinion it worth to make an effort and get familiar with it.
 
 I think that it's not so hard to catch the main idea of DDD.  I like the definition of DDD which I have written by  [Margaret Rouse](https://whatis.techtarget.com/definition/domain-driven-design):
 
@@ -49,7 +49,7 @@ To sum up, both books give strong basics. Don't kid yourself that after the lect
 
 ### Not only books
 
-![Online](https://raw.githubusercontent.com/rafalpienkowski/resources/master/my-ddd-journey/undraw_social_friends_small.png)
+![Online](https://raw.githubusercontent.com/rafalpienkowski/resources/master/my-ddd-journey/undraw_social_friends_175.png)
 
 Of course, there are other ways of learning, like audiobooks or video recordings from conferences. I don't like audiobooks, but I watched a few of them. In my opinion, that is a good starting point if you consider if DDD is for you. You invest a few hours and gain a quite extensive point of view.
 
@@ -74,7 +74,7 @@ To make this easier below is an image which shows the live cycle of configuratio
 
 ## The shared understanding
 
-![Converstation](https://raw.githubusercontent.com/rafalpienkowski/resources/master/my-ddd-journey/undraw_conversation.png)
+![Converstation](https://raw.githubusercontent.com/rafalpienkowski/resources/master/my-ddd-journey/undraw_conversation_200.png)
 
 First of all, we need to build a shared understanding of our business. Without proper comprehension, we won't be able to write good software. There is no better way to learn how to business works than by talking to business people. Quite obvious, don't you think. Based on my experience talking is way, way better form of communication than the written form like documentation, diagrams etc. I don't say that documents and charts are wrong. They are handy to build understanding. 
 
