@@ -18,7 +18,9 @@ ___
 
 ### ![Huuuge Games logo](/content/images/huuuge-logo.png) 06.2019-nowadays, [Huuuge Games](http://www.huuugegames.com/), Lead C# Developer
 
-06.2019-nowadays ***HDCI Project***
+06.2019-nowadays ***HCRM Project***
+
+06.2019-03.2020 ***HDCI Project***
 
 The Huuuge Dynamic Configuration Infrastructure project is aimed to show a configuration for a player which depends on the current player's business segments.
 

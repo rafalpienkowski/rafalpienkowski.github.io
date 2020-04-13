@@ -8,6 +8,7 @@ Welcome! You can find some information about myself and some post which I've pos
 
 ### My articles:
 
+- [My DDD journey](/posts/2020/04/my-ddd-journey-01) (04/2020)
 - [Don't starve your Cookie Monster](/posts/2019/03/dont-starve-your-cookie-monster) (03/2019)
 - [Doubles can be dangerous](/posts/2019/03/doubles-can-be-dangerous) (03/2019)
 - [Turn VM off and give my money back](/posts/2019/02/turn-vm-off) (02/2019)
