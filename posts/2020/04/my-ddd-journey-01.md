@@ -2,11 +2,11 @@
 layout: default
 ---
 
-##Introduction
+## Introduction
 
 For some time, I have an interest in the Domain-Driven Desing. In my case, it didn't come from DDD's popularity nor something called CV-Driven development. Trust me or not, I want to write quality software, and I believe that DDD is the right (but the only one) technique to achieve that.
 
-From some time, I want to write something about this technique. I warn you that I don't consider myself as a DDD expert. There are a lot of smarter than me in this business. After all, I decided to describe how is my adventure with DDD looks like (as you can image the cover photo presents how the journey looked like). I want to show my subjective point of view. I want to share things which caused me problems, my failures and some wins. I could be pleasant if I could share your experience with me. It would be rapt if I inspire you or if you could take a lesson from my failures. In the end, Domain-Driven Design is a highly effective technique. In my opinion it worth to make an effort and get familiar with it.
+From some time, I want to write something about this technique. I warn you that I don't consider myself as a DDD expert. There are a lot of smarter than me in this business. After all, I decided to describe how is my adventure with DDD looks like. I want to show my subjective point of view. I want to share things which caused me problems, my failures and some wins. I could be pleasant if I could share your experience with me. It would be rapt if I inspire you or if you could take a lesson from my failures. In the end, Domain-Driven Design is a highly effective technique. In my opinion it worth to make an effort and get familiar with it.
 
 I think that it's not so hard to catch the main idea of DDD.  I like the definition of DDD which I have written by  [Margaret Rouse](https://whatis.techtarget.com/definition/domain-driven-design):
 
@@ -59,7 +59,7 @@ Another alternative is e-learning. For example, there is a whole DDD path on the
 
 After we've gained the solid theory background, it's the time to get to know our domain. Here is the story which stands behind our system.
 
-![Story](https://raw.githubusercontent.com/rafalpienkowski/resources/master/my-ddd-journey/undraw_reading_list_4boi.png)
+![Story](https://raw.githubusercontent.com/rafalpienkowski/resources/master/my-ddd-journey/undraw_reading_list_175.png)
 
 > *"Our company is responsible for supplying the configuration to the clients. First, an operator creates a draft. A draft could go live immediately. It could be scheduled to become go live in the future.  That configuration we called planned. Live could be archived. An archive is the final step of each configuration's live cycle.*
 
@@ -74,7 +74,7 @@ To make this easier below is an image which shows the live cycle of configuratio
 
 ## The shared understanding
 
-![Converstation](https://raw.githubusercontent.com/rafalpienkowski/resources/master/my-ddd-journey/undraw_conversation_200.png)
+![Converstation](https://raw.githubusercontent.com/rafalpienkowski/resources/master/my-ddd-journey/undraw_conversation_175.png)
 
 First of all, we need to build a shared understanding of our business. Without proper comprehension, we won't be able to write good software. There is no better way to learn how to business works than by talking to business people. Quite obvious, don't you think. Based on my experience talking is way, way better form of communication than the written form like documentation, diagrams etc. I don't say that documents and charts are wrong. They are handy to build understanding. 
 
@@ -101,13 +101,13 @@ I bring up this saying to highlight how vital strategic DDD is. We are familiar 
 For instance, we could assume that the live configurations should have such features like high availability and low latency. We don't have to care about writes, but reads are crucial. Let's face it, code which is written concerning the DDD rules could not be the best solution. DDD is best when we talk about write operations. DDD ends with a system which is easy to maintain and extend.
 On the other hand, it is not optimized for fast reads. Instead of instantiating repository, which loads our the aggregate root, it would be more efficient just to perform a simple SQL query. Maybe the classic relational database wouldn't meet the performance expectations, and you would have to take advantage of Redis with a denormalized data model. BTW, did you think about [Command Query Responsibility Segregation CQRS](https://martinfowler.com/bliki/CQRS.html)? If your answer is yes, that's good for you. Commands work perfectly with DDD. I'm not going into details about CQRS. Of course, feel free to explore it on our own.
 
-![Creative thinking](https://raw.githubusercontent.com/rafalpienkowski/resources/master/my-ddd-journey/undraw_creative_thinking_.png)
+![Creative thinking](https://raw.githubusercontent.com/rafalpienkowski/resources/master/my-ddd-journey/undraw_creative_thinking_175.png)
 
 Let's take a closer look at the second example. The business comes to us with a new feature request. The system has to support media attachments like images and media files. That doesn't mean that we should store blob in our domain model. Depending on the business needs, there could exist an invariant saying that regular customers are allowed to add three images, while enterprise customers are can add up to five files. We could add an attachment's identifier to our entity. The module responsible for storing and serving files is a different context. Probably we wouldn't need DDD there. A simple CRUD application will be good enough. 
 
 That brings me to a quite common misconception that DDD everywhere. I made that mistake a couple of times. I learnt about DDD, and I saw aggregate roots, entities and value objects everywhere. I'm not saying that code written concerning DDD is slower. No. It doesn't mean any such thing, but undeniably to write this code you need more of your time. That is a big waste. Instead of writing the code which probably will never be changed, you could focus on the crucial part of your's company areas—the areas which bring money to your company and also to you. I've heard that DDD relates to maximum ten-fifteen percent of the whole system.
 
-![Iterative](https://raw.githubusercontent.com/rafalpienkowski/resources/master/my-ddd-journey/undraw_synchronize.png)
+![Iterative](https://raw.githubusercontent.com/rafalpienkowski/resources/master/my-ddd-journey/undraw_synchronize_175.png)
 
 Last but not least, modelling an aggregate isn't a straightforward task. There is nothing to cheat that you will model the domain in the final shape on the first try. Domain modelling is an iterative process. My advice is not only to focus on the model's sketch on the whiteboard. Recalling the onion architecture domain model is placed in the middle without any dependencies. This implicates that writing some sample code, for instance, some unit tests, is an easy task. We could quickly validate our model and make corrections to it. In my opinion, nighter UI nor an API is required for that. That causes that any changes concern only on a small independent piece of code.
 
