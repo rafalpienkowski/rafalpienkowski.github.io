@@ -40,7 +40,7 @@ BTW "Hands-On Domain-Driven Design with .NET Core" has a dedicated [GitHub repos
 
 In the next course I am going to read:
 [Patterns, Principles, and Practices of Domain-Driven Design
-](https://www.amazon.com/Patterns-Principles-Practices-Domain-Driven-Design/dp/1118714709]
+](https://www.amazon.com/Patterns-Principles-Practices-Domain-Driven-Design/dp/1118714709) and 
 [Domain-Driven Design: The First 15 Years](https://leanpub.com/ddd_first_15_years). After the lecture, I will be able to tell you something about them.
 
 ![To read](https://raw.githubusercontent.com/rafalpienkowski/resources/master/my-ddd-journey/to_read.jpg)
