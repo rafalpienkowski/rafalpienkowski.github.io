@@ -65,13 +65,13 @@ As one of the group leaders, I'm responsible for finding interesting speakers, g
 
 ### 11.2016-05.2018, [Cybercom Group](https://www.cybercom.com/), Senior Software Engineer 
 
-• .Net and Azure consultant
-• Cloud-based VOD platform developer (Vubiquity)
-• Internal trainer
-• Swedish alternative cinemas booking system API developer
-• Klarna payment system integration leader
-• On designer for an IoT-based platform for construction workers (”Smart Helmet”)
-• Technologies: .Net Core, Azure (App Service, SQL Database, Table Storage, Azure DevOps, ARM templates)
+- .Net and Azure consultant
+- Cloud-based VOD platform developer (Vubiquity)
+- Internal trainer
+- Swedish alternative cinemas booking system API developer
+- Klarna payment system integration leader
+- On designer for an IoT-based platform for construction workers (”Smart Helmet”)
+- Technologies: .Net Core, Azure (App Service, SQL Database, Table Storage, Azure DevOps, ARM templates)
 
 ### 03.2013-11.2016, [Asseco Poland](https://pl.asseco.com/en/), .Net Programmer
 
