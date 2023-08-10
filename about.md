@@ -5,7 +5,7 @@ layout: default
 # About me 
 ___
 
-![Rafał Pieńkowski](/content/images/me.jpg)
+<img src="https://www.rafalpienkowski.pl/content/images/me.jpg" alt="Rafał Pieńkowski" heigh=50%>
 
 I'm a .Net developer specializing in web-based applications. I'm one of Bydgoszcz .Net User Group community leaders. In recent years, I am fascinated by the subject of Domain-Driven Design and software architecture. I'm an advocate of agile software development methodologies combined with DevOps methodologies. A conscious user of Azure and AWS public clouds. Always like to help others sharing his knowledge. Favourite quote:
 > "There are no stupid questions, there are only stupid answers."
@@ -13,9 +13,11 @@ I'm a .Net developer specializing in web-based applications. I'm one of Bydgoszc
 ## Professional career
 ___
 
-### ![Huuuge Games logo](/content/images/huuuge-logo.png) 06.2019-nowadays, [Huuuge Games](http://www.huuugegames.com/), Lead C# Developer
+### ![Huuuge Games logo](/content/images/huuuge-logo.png) 06.2019-02.2021, [Huuuge Games](http://www.huuugegames.com/), Lead C# Developer
 
-06.2019-nowadays ***HCRM Project***
+07.2020-
+
+03.2020-07.2020 ***HCRM Project***
 
 06.2019-03.2020 ***HDCI Project***
 
