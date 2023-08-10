@@ -5,12 +5,9 @@ layout: default
 # About me 
 ___
 
-![Rafał Pieńkowski](/content/images/me.png)
+![Rafał Pieńkowski](/content/images/me.jpg)
 
-Hi,
-My name is Rafał Pieńkowski. I came from Bydgoszcz, Poland. I'm a .Net developer specializing in web-based applications. I'm focused on developing and expanding my knowledge and skills. Enjoying new challenges. 
-I'm a big fan of the cloud solutions, especially Azure. From time to time I like to take DevOps topics and enhance existing CI/CD processes. 
-I always like to help and share my knowledge with other team members. Therefore my favorite quote is:
+I'm a .Net developer specializing in web-based applications. I'm one of Bydgoszcz .Net User Group community leaders. In recent years, I am fascinated by the subject of Domain-Driven Design and software architecture. I'm an advocate of agile software development methodologies combined with DevOps methodologies. A conscious user of Azure and AWS public clouds. Always like to help others sharing his knowledge. Favourite quote:
 > "There are no stupid questions, there are only stupid answers."
 
 ## Professional career
