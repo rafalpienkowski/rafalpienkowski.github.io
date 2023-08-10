@@ -12,8 +12,15 @@ I'm a .Net developer specializing in web-based applications. I'm one of Bydgoszc
 ## Professional career
 ___
 
+### 04.2022-nowadays, [M-Kopa](https://m-kopa.com/), Senior Sofrware Engineer
 
-### ![Bydgoszcz .Net User Group](/content/images/bug_net.png) 05.2018-nowadays, [Bydgoszcz .Net User Group](https://www.facebook.com/Bydgoszcz-Net-User-Group-1008732075973110/), Group Lider
+- Working for a connected asset financing platform that offers millions of underbanked customers access to life-enhancing products and services.
+- Focusing on payment integration
+- Following the DevOps culture
+- Implementing best SRE practices
+- Technologies: C#, Azure (ASB, AI, EH), Docker, k8s, Azure DevOps
+
+### 05.2018-nowadays, [Bydgoszcz .Net User Group](https://www.facebook.com/Bydgoszcz-Net-User-Group-1008732075973110/), Group Lider
 Bydgoszcz .Net User Group was created to connect all geeks focused on .Net technology stack around Bydgoszcz city. The primary goals of the group are knowledge sharing and networking with other people which daily routine is to work with .Net technologies.
 As one of the group leaders, I'm responsible for finding interesting speakers, generous sponsors, driving meetings and promoting group in social media.
 
