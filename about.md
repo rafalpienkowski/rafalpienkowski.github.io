@@ -17,7 +17,19 @@ ___
 Bydgoszcz .Net User Group was created to connect all geeks focused on .Net technology stack around Bydgoszcz city. The primary goals of the group are knowledge sharing and networking with other people which daily routine is to work with .Net technologies.
 As one of the group leaders, I'm responsible for finding interesting speakers, generous sponsors, driving meetings and promoting group in social media.
 
-### ![Adaptivity](/content/images/adaptivity.png) 03.2021-07.2021, [Adaptivity](https://adaptivity.uk/)
+### 07.2021-04.2022, [Intive](https://intive.com/), Principal Software Engineer
+
+- Working for a fintech client on an application supporting investment decisions
+- Advising during the design phase
+- Take part and lead architecture decisions
+- Introduction an integration with a message broker to the team (RabbitMQ)
+- Catalysing the agile transformation of the team 
+- Analysing and finding hot spots in the application codebase 
+- Analysing, locating and improving performance bottlenecks
+- Developing solution; writing code, unit and integration tests, CI/CD process included
+- Technologies: .Net 6, WebAPI, NUnit, EF, PostgreSQL, Docker, kubernetes, Swagger, TeamCity, NBomber
+
+### 03.2021-07.2021, [Adaptivity](https://adaptivity.uk/), .Net/AWS Consultant
 
 - Working on PoC survey management system for the automotive industry
 - Advising during the design phase
@@ -25,7 +37,7 @@ As one of the group leaders, I'm responsible for finding interesting speakers, g
 - The client has terminated the project
 - Technologies: .Net Core, PostgreSQL, Docker, Postman, AWS (Lambda, API Gateway, EC2, TeamCity)
 
-### ![Huuuge Games logo](/content/images/huuuge-logo.png) 03.2019-03.2021, [Huuuge Games](http://www.huuugegames.com/), Lead C# Developer
+### 03.2019-03.2021, [Huuuge Games](http://www.huuugegames.com/), Lead C# Developer
 
 - Game configuration and monetization system lead developer and architect
 - Introducing to the team DDD, CQRS, Event Storming, Infrastructure as a Code techniques
@@ -36,7 +48,7 @@ As one of the group leaders, I'm responsible for finding interesting speakers, g
 - Developing game ads supporting system
 - Technologies: .Net Core, PostgreSQL, Redis, Docker, AWS (ECS,ECR,SQS, Lambda, EC2), Grafana, Prometheus, TeamCity, NodeJS, TypeScript
 
-### ![Cognifide](/content/images/cognifide.png) 05.2018-03.2019, [Cognifide Limited](https://www.cognifide.com/), Senior Software Engineer
+### 05.2018-03.2019, [Cognifide Limited](https://www.cognifide.com/), Senior Software Engineer
 
 - Introducing Azure DevOps in the company
 - Migrating Sitecore system to the Azure
@@ -44,7 +56,7 @@ As one of the group leaders, I'm responsible for finding interesting speakers, g
 - Sitecore developer
 - Technologies: .Net, Sitecore, Azure (App service, SQL Database, ARM Templates), Azure DevOps
 
-### ![Cybercom](/content/images/cybercom.png) 11.2016-05.2018, [Cybercom Group](https://www.cybercom.com/), Senior Software Engineer 
+### 11.2016-05.2018, [Cybercom Group](https://www.cybercom.com/), Senior Software Engineer 
 
 • .Net and Azure consultant
 • Cloud-based VOD platform developer (Vubiquity)
@@ -54,7 +66,7 @@ As one of the group leaders, I'm responsible for finding interesting speakers, g
 • On designer for an IoT-based platform for construction workers (”Smart Helmet”)
 • Technologies: .Net Core, Azure (App Service, SQL Database, Table Storage, Azure DevOps, ARM templates)
 
-### ![Asseco Poland](/content/images/asseco.jpg) 03.2013-11.2016, [Asseco Poland](https://pl.asseco.com/en/), .Net Programmer
+### 03.2013-11.2016, [Asseco Poland](https://pl.asseco.com/en/), .Net Programmer
 
 - Billing system for an energy sector developer
 - Main developer in energy selling platform created for Orange
@@ -63,7 +75,7 @@ As one of the group leaders, I'm responsible for finding interesting speakers, g
 - Supporting desktop-based billing system in the contractor service area
 - Technologies: ASP.Net MVC, Angular 1.x, Telerik, Oracle, MS SQL, Informix, WCF, WinForms, ADO.NET, Entity Framework, NUnit, Selenium
 
-### ![T-Komp](/content/images/tkomp.png) 03.2012-03.2013, [T-Komp](http://www.tkomp.pl/lang-en.html), Web Programmer
+### 03.2012-03.2013, [T-Komp](http://www.tkomp.pl/lang-en.html), Web Programmer
 
 - Digital document workflow system developer 
 - Creating customized features
